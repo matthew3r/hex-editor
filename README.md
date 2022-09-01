@@ -26,3 +26,6 @@ For future improvements:
 - Because of the sites structure the responsive part is rudimentary. There is a lot of room to make this better and more usable.
 - First, while selecting the data, all of the page was rerendered, and that I was able to improve to rerender only the hex and raw part of the site. But when there is a bigger data the selection can be a little laggy. The app can be improved to only rerender those datas which are selected or deselected.
 - The last optional feature, to display Uint16Array and ArrayBuffer.
+- When copying the raw values it copies the replaced characters instead of the original ones.
+
+![Screenshot](/hex/public/screen.png)
